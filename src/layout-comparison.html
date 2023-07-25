@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid, flex 비교</title>
+    <link rel="stylesheet" href="../style/layout-comparison.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h2>플렉스를 사용한 레이아웃 기본</h2>
+        <div class="layout flex">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>그리드를 사용한 레이아웃 기본</h2>
+        <div class="layout grid">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>플렉스를 사용한 레이아웃 - flex-grow를 이용 (기본값은 꺼져있음)</h2>
+        <div class="layout flex flex-opt1">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>그리드를 사용한 레이아웃 - repeat(auto-fit)을 이용</h2>
+        <div class="layout grid grid-opt1">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>플렉스를 사용한 레이아웃 - flex-wrap을 이용</h2>
+        <div class="layout flex flex-opt2">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h2>플렉스를 사용한 레이아웃 - flex-wrap과 space-between을 이용</h2>
+        <div class="layout flex flex-opt3">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
